@@ -2,4 +2,4 @@ env/
 build/*.*
 build/**
 wheels/*.*
-bench_2/*.*
+bench_2/**

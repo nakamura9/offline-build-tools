@@ -3,6 +3,8 @@
 - Install NSIS 
     `https://nsis.sourceforge.io/Download`
 - Create virtualenv
+    `python -m venv env`
+    `env/scripts/activate`
     `pip install pynsist`
 - make sure pip setuptools and wheel are up to date
     `python.exe -m pip install --upgrade pip setuptools wheel`

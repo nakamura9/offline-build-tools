@@ -4,14 +4,15 @@ config = configparser.ConfigParser()
 config['Application'] = {
     'name': "Bench Business Tools",
     'version': '2.0',
-    'entry_point': 'myapp:main'
+    'entry_point': 'src.server:run',
+    'console': 'true'
 }
 
 config['Python'] = {
     'version': '3.11.1'
 }
 
-with open('bench_requirements.txt', 'r', encoding='utf-8') as f:
+with open('./src/requirements.txt', 'r', encoding='utf-16') as f:
     data = f.read()
     config['Include'] = {
         'pypi_wheels': data,
@@ -19,5 +20,5 @@ with open('bench_requirements.txt', 'r', encoding='utf-8') as f:
     }
 
 
-with open("installer2.cfg", "w") as configfile: 
+with open("installer.cfg", "w") as configfile: 
     config.write(configfile)

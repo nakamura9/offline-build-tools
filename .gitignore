@@ -1,5 +1,9 @@
 env/
-build/*.*
-build/**
-wheels/*.*
-bench_2/**
+build/
+wheels/
+bench_2/
+temp/
+build_env/
+launcher/
+tmp/
+dist/

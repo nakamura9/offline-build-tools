@@ -1,0 +1,17 @@
+2023-09-26 18:58:46,246 [INFO  ] [Step 2] Downloading source
+2023-09-26 18:59:08,788 [INFO  ] Downloaded umisoft-19/core.git successfully
+2023-09-26 18:59:08,788 [INFO  ] Task took: 22s cumulative time: 22 s
+2023-09-26 18:59:08,788 [INFO  ] [Step 3] Checking react bundles
+2023-09-26 18:59:08,794 [INFO  ] [Step 4] Making production build of react modules
+2023-09-26 18:59:08,794 [INFO  ] installing npm packages
+2023-09-26 19:00:14,138 [INFO  ] Task took: 65s cumulative time: 87 s
+2023-09-26 19:00:14,138 [INFO  ] [Step 5] setting up server env
+2023-09-26 19:01:57,204 [INFO  ] Task took: 103s cumulative time: 190 s
+2023-09-26 19:01:57,204 [INFO  ] [Step 6] setting up launcher env
+2023-09-26 19:02:16,955 [INFO  ] Task took: 19s cumulative time: 210 s
+2023-09-26 19:02:16,956 [INFO  ] [Step 7] building launcher
+2023-09-26 19:02:38,862 [INFO  ] Task took: 21s cumulative time: 232 s
+2023-09-26 19:02:38,862 [INFO  ] [Step 8] building wheels
+2023-09-26 19:03:00,282 [INFO  ] Task took: 21s cumulative time: 254 s
+2023-09-26 19:03:00,282 [INFO  ] [Step 9] building server
+2023-09-26 19:25:15,335 [INFO  ] Task took: 1335s cumulative time: 1589 s

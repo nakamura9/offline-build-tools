@@ -11,8 +11,7 @@ import stat
 
 
 class BuildException(Exception):
-    pass 
-
+    pass
 
 
 class BenchBuilder():

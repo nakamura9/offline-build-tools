@@ -25,11 +25,11 @@ class BenchBuilder():
         self.configure_logger()
         self.setup_environment()
         self.download_source()
-        # self.assets_checks_and_build()
-        # self.setup_server_env()
-        # self.setup_launcher_env()
-        # self.build_launcher()
-        # self.build_wheels()
+        self.assets_checks_and_build()
+        self.setup_server_env()
+        self.setup_launcher_env()
+        self.build_launcher()
+        self.build_wheels()
         self.build_server()
 
     def log_job_start(self):

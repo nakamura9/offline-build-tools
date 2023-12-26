@@ -1,2 +1,4 @@
-2023-12-26 07:38:44,522 [INFO  ] [Step 9] building server
-2023-12-26 07:54:35,077 [INFO  ] Task took: 950s cumulative time: 950 s
+2023-12-26 11:34:59,416 [INFO  ] [Step 2] Downloading source
+2023-12-26 11:34:59,417 [INFO  ] Source directory is not empty
+2023-12-26 11:34:59,417 [INFO  ] [Step 9] building server
+2023-12-26 11:40:29,148 [INFO  ] Task took: 329s cumulative time: 329 s

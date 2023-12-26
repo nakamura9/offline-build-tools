@@ -4,8 +4,8 @@ import chardet
 
 config = configparser.ConfigParser()
 config['Application'] = {
-    'name': "Bench Business Tools",
-    'version': '2.0',
+    'name': "Thrust Accounting",
+    'version': '1.0',
     'entry_point': 'src.server:run',
     'console': 'true'
 }

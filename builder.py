@@ -17,7 +17,7 @@ class BuildException(Exception):
 class BenchBuilder():
     def __init__(self):
         self.repo_path = "umisoft-19/core.git"
-        self.git_branch = "bench_v2"
+        self.git_branch = "win-thrust"
         self.start = time.time()
         self.task_start = time.time()
 
@@ -25,11 +25,11 @@ class BenchBuilder():
         self.configure_logger()
         self.setup_environment()
         self.download_source()
-        self.assets_checks_and_build()
-        self.setup_server_env()
-        self.setup_launcher_env()
-        self.build_launcher()
-        self.build_wheels()
+        # self.assets_checks_and_build()
+        # self.setup_server_env()
+        # self.setup_launcher_env()
+        # self.build_launcher()
+        # self.build_wheels()
         self.build_server()
 
     def log_job_start(self):
@@ -48,7 +48,7 @@ class BenchBuilder():
             return
         os.chdir(self.src_dir)
         Repo.clone_from(
-            "https://github.com/" + self.repo_path, 
+            "https://github.com/" + self.repo_path,
             ".",
             single_branch=True,
             depth=1,

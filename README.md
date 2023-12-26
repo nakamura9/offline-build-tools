@@ -16,6 +16,11 @@
     `pynsist installer.cfg`
 - if it fails because of a missing wheel, build manually using 
     `pip wheel --wheel-dir wheels/ package_name==version`
+- Some packages may use deprecated features and are not actively maintained. Use 
+    `python setup.py bdist_wheel` 
+    to compile wheels from source 
+    especially for Pygal and django formtools.
+- add these custom built wheels to your wheels folder in the root of your project.
 
 
 # Project structure 
@@ -28,3 +33,4 @@
     |_____server
         |___________runserver.py
 ```
+

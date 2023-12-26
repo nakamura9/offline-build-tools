@@ -11,8 +11,7 @@ import stat
 
 
 class BuildException(Exception):
-    pass 
-
+    pass
 
 
 class BenchBuilder():
@@ -196,6 +195,8 @@ class BenchBuilder():
         with open('../wheels.txt', 'w') as f:
             for file in os.listdir('wheels'):
                 f.write(file + '\n')
+
+        # TODO copy manually built formtools and pygal wheels.
 
         self.log_duration()
 

@@ -24,12 +24,12 @@ class BenchBuilder():
     def run(self):
         self.configure_logger()
         self.setup_environment()
-        self.download_source()
-        self.assets_checks_and_build()
-        self.setup_server_env()
-        self.setup_launcher_env()
-        self.build_launcher()
-        self.build_wheels()
+        # self.download_source()
+        # self.assets_checks_and_build()
+        # self.setup_server_env()
+        # self.setup_launcher_env()
+        # self.build_launcher()
+        # self.build_wheels()
         self.build_server()
 
     def log_job_start(self):
@@ -195,6 +195,8 @@ class BenchBuilder():
         with open('../wheels.txt', 'w') as f:
             for file in os.listdir('wheels'):
                 f.write(file + '\n')
+
+        # TODO copy manually built formtools and pygal wheels.
 
         self.log_duration()
 
